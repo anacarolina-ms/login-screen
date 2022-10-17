@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/show.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login{
+    width: 320px;
+    height: 420px;
+    border: none;
+    box-shadow: 0 0 10px  rgb(66, 0, 52);
+    border-radius: 20px;
+    color:rgb(255, 181, 251);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 28px;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.login p{
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.login input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid rgb(255, 181, 251);
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: rgb(255, 181, 251);
+    font-size: 15px;
+}
+
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 32px;
+    color:rgb(255, 181, 251);
+    background: rgb(128, 55, 124);
+    border-radius: 20px;
+}
+
+.login input[type="submit"]:hover {
+    cursor: pointer;
+    background: #61145d;
+    transition: 0.2s;
+}
+
+.login a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgb(255, 181, 251);
+    transition: 0.2s;
+}
+
+.login a:hover {
+    transition: 0.2s;
+    color: #61145d;
+}
